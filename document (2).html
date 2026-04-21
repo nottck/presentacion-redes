@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales - Duoc UC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/night.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        :root { --accent: #8b5cf6; }
+        .slide-title { color: var(--accent); font-weight: bold; }
+        .highlight { color: #50fa7b; }
+        /* Animación de trayecto para el globo y el cohete */
+        @keyframes floatPath {
+            0% { transform: translate(-300px, 50px); }
+            50% { transform: translate(0px, -50px); }
+            100% { transform: translate(300px, 50px); }
+        }
+        .trayecto { animation: floatPath 6s infinite alternate ease-in-out; display: inline-block; font-size: 3rem; }
+        .grid-six { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-top: 20px; }
+        .node { background: rgba(139, 92, 246, 0.3); border: 2px solid var(--accent); padding: 10px; border-radius: 8px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section data-transition="zoom">
+                <p class="animate__animated animate__fadeInDown">Duoc UC | Escuela de Administración y Negocios [cite: 1, 7]</p>
+                <h1 class="slide-title animate__animated animate__bounceIn">Redes sociales [cite: 5]</h1>
+                <p class="animate__animated animate__fadeInUp">Conociendo su origen [cite: 6]</p>
+                <div style="font-size: 0.5em; margin-top: 50px;">Herramientas Tecnológicas I [cite: 7]</div>
+            </section>
+
+            <section data-transition="slide">
+                <h2 class="slide-title">Inicios de las redes [cite: 12]</h2>
+                <p class="fragment">Internet nació en <span class="highlight">1947</span>, durante los primeros pasos de la <span class="highlight">Guerra Fría</span>[cite: 13].</p>
+                <div class="fragment trayecto">🌐</div>
+                <div style="display: flex; justify-content: space-between; font-size: 0.7em; margin-top: 20px;">
+                    <div class="fragment"><b>Occidente (EE.UU.)</b><br>Capitalista [cite: 14]</div>
+                    <div class="fragment"><b>Oriente (Unión Soviética)</b><br>Comunista [cite: 14]</div>
+                </div>
+            </section>
+
+            <section data-transition="convex">
+                <h2 class="slide-title">SixDegrees (1997) [cite: 15, 16]</h2>
+                <p style="font-size: 0.8em;">Considerada la <span class="highlight">primera red social</span> del mundo[cite: 16].</p>
+                <div class="grid-six">
+                    <div class="fragment node">Usuario</div>
+                    <div class="fragment node">Paso 1</div>
+                    <div class="fragment node">Paso 2</div>
+                    <div class="fragment node">Paso 3</div>
+                    <div class="fragment node">Paso 4</div>
+                    <div class="fragment node">Paso 5</div>
+                    <div class="fragment node">Paso 6</div>
+                    <div class="fragment node">Mundo [cite: 17]</div>
+                </div>
+                <blockquote class="fragment" style="font-size: 0.5em; margin-top: 30px;">
+                    "El desafío es construir una comunidad, el desafío es encender una llama"[cite: 20].
+                </blockquote>
+            </section>
+
+            <section>
+                <h2 class="slide-title">Inicios del Siglo XXI [cite: 23]</h2>
+                <ul style="font-size: 0.8em;">
+                    <li class="fragment"><b>Friendster (2001):</b> Red para amantes de los videojuegos[cite: 24].</li>
+                    <li class="fragment"><b>MySpace (2003):</b> Red profesional y empresarial[cite: 25].</li>
+                    <li class="fragment"><b>LinkedIn (2003):</b> Orientada a empresas[cite: 25].</li>
+                </ul>
+                <div class="fragment trayecto" style="animation-delay: 1s;">🚀</div>
+            </section>
+
+            <section data-transition="fade">
+                <h2 class="slide-title">La Revolución</h2>
+                <div style="font-size: 0.8em; text-align: left; display: inline-block;">
+                    <p class="fragment">🔹 <b>Facebook (2004):</b> Creado por un joven en Harvard[cite: 26, 27].</p>
+                    <p class="fragment">🔹 <b>Twitter (2006):</b> Microblogging nacido en San Francisco[cite: 31, 32].</p>
+                    <p class="fragment">🔹 <b>Instagram (2010):</b> La red fotográfica por excelencia[cite: 33, 34].</p>
+                </div>
+                <div style="margin-top: 20px; display: flex; align-items: flex-end; height: 150px; gap: 10px; justify-content: center;">
+                    <div class="fragment" style="background: #1877F2; width: 40px; height: 100%;"></div>
+                    <div class="fragment" style="background: #1DA1F2; width: 40px; height: 60%;"></div>
+                    <div class="fragment" style="background: #E1306C; width: 40px; height: 120%;"></div>
+                </div>
+            </section>
+
+            <section data-background-iframe="https://www.youtube.com/embed/jNQXAC9IVRw?autoplay=1&mute=1&controls=0" data-background-interactive>
+                <div style="background: rgba(0,0,0,0.7); padding: 30px; border-radius: 20px;">
+                    <h2 class="slide-title">YouTube (2005) [cite: 28, 29]</h2>
+                    <p style="font-size: 0.8em;">Surgió ante la dificultad de compartir vídeos en una fiesta en San Francisco.</p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            center: true,
+            transition: 'slide',
+            autoPlayMedia: true,
+        });
+
+        // Sonido al aparecer fragmentos (elementos animados)
+        const audio = new Audio('https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3');
+        Reveal.on('fragmentshown', event => {
+            audio.currentTime = 0;
+            audio.play().catch(() => console.log("Sonido esperando interacción"));
+        });
+    </script>
+</body>
+</html>
